@@ -1,6 +1,6 @@
 # Introduction
 
-The source code of the proposed method is available online at Github.
+The source code of the CBN-Net for training and evaluation is available.
 
 ## Abstract
 
@@ -22,22 +22,23 @@ For both the CIFAR-10 and ImageNet dataset, the main folder should be in the fol
 
 ```C
 CBN-Net	
-	Evaluation
-    	Cifar10
-    		ResNet20
-  				eval.py
-    		VGGSmall
-    			eval.py
-    	ImageNet
-    		eval.py
-    Training
-    	Cifar10
-    		ResNet20
-    			train_kl.py
-    		VGGSmall
-    			train_kl.py
-    	ImageNet
-    		train_kl.py
+  Evaluation
+    Cifar10
+    	ResNet20
+           eval.py
+    	VGGSmall
+           eval.py
+    ImageNet
+       eval.py
+    
+  Training
+    Cifar10
+    	ResNet20
+           train_kl.py
+    	VGGSmall
+           train_kl.py
+    ImageNet
+       train_kl.py
 ```
 
 The datasets should be put into the **‘data’** folder or point to the place where the data is stored.  The log files are stored in the **‘log’** folder.
